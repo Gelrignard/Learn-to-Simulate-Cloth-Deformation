@@ -21,6 +21,7 @@ class MLP(nn.Module):
             x = lin(x)
         return x
 
+
 class EncodeProcessDecode(nn.Module):
     def __init__(self,
                  node_input_size,
