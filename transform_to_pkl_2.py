@@ -8,6 +8,7 @@ import pickle
 
 # Eager execution is enabled by default in TensorFlow 2.x
 
+
 _FEATURE_DESCRIPTION = {
     'position': tf.io.VarLenFeature(tf.string),
 }
