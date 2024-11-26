@@ -6,3 +6,5 @@ matplotlib
 scipy
 tensorflow
 texttable
+torch-sparse
+torch-scatter
