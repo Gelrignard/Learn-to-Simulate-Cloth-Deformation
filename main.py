@@ -344,6 +344,7 @@ def parse_arguments():
 
 if __name__ == '__main__':
     args = parse_arguments()
+    args.max_episodes = 10
     if args.mode == 'train':
         train(args)
     elif args.mode == 'eval':
