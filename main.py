@@ -210,6 +210,7 @@ def train(args):
             features['positions'] = features['positions'].to(device)
             features['particle_types'] = features['particle_types'].to(device)
             features['n_particles_per_example'] = features['n_particles_per_example'].to(device)
+            print(features['n_particles_per_example'])
             if 'step_context' in features:
                 features['step_context'] = features['step_context'].to(device)
             target_next_position = labels
